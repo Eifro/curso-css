@@ -1,0 +1,5 @@
+p {
+    background-color: rgb(100, 180, 220);
+    border: 2px solid lime;
+    display: inline-block;
+}
