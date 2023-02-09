@@ -1,0 +1,17 @@
+div {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.rgb_1 {
+    background-color: #F0F;
+}
+
+.rgb_2 {
+    background-color: #64C832;
+}
+
+.rgb_3 {
+    background-color: #000;
+}

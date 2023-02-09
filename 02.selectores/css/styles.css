@@ -1,0 +1,60 @@
+/* selectores por etiqueta */
+h2 {
+    color: blue;
+}
+
+header h2,
+h3 {
+    color: green;
+}
+
+/* selectores por id */
+p {
+    color: orange;
+}
+
+p#indigo {
+    color: indigo;
+}
+
+/* selectores por clase */
+p.red {
+    color: red;
+}
+
+p.grande {
+    /* font-size: 25px; */
+}
+
+/* selectores adyacentes */
+p+p {
+    font-weight: bold;
+    text-decoration: underline blue;
+}
+
+/* selectores hijos */
+div > p {
+    color: sienna;
+}
+
+/* selectores hermanos */
+p ~ p {
+    font-size: 20px;
+}
+
+/* selectores por atributo */
+h2[title] {
+    color: forestgreen;
+}
+
+h2[title="main"] {
+    color: cornflowerblue;
+}
+
+h2[title~="cabecera"] { /* se usa esta forma cuando hay diferentes valores y se toma uno de ellos */
+    color: fuchsia;
+}
+
+p[lang|="es"] { /* se usa esta forma cuando empiezan con dicho valor */
+    color: crimson;
+}

@@ -1,0 +1,32 @@
+div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+}
+
+.margin {
+    background-color: rgb(200, 150, 25);
+    /* margin: 20px; */
+    /* margin: 20px 30px; */
+    /* margin: 20px 50px 60px 5%; */ /* sentido horario */
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-bottom: 60px;
+    margin-left: 5%;
+}
+
+.padding > p {
+    border: 1px solid blue;
+    background-color: #fff;
+}
+
+.padding {
+    background-color: #10C9F2;
+    /* padding: 10px;
+    padding: 10px 20px;
+    padding: 10px 20px 30px 40px; */
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-left: 10%;
+}

@@ -1,0 +1,22 @@
+/* colores por palabras reservadas */
+div {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+
+.teal {
+    background-color: teal;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.aqua {
+    background-color: aqua;
+}
+
+.crimson {
+    background-color: crimson;
+}
