@@ -1,0 +1,32 @@
+/* static, relative, absolute, fixed */
+.padre {
+    width: 300px;
+    height: 300px;
+    background-color: crimson;
+    margin: 20px;
+    position: relative;
+}
+
+.hijo1 {
+    width: 50px;
+    height: 50px;
+    background-color: royalblue;
+    position: absolute;
+    top: 0px;
+    /* left: 250px; */
+}
+
+.hijo2 {
+    width: 200px;
+    height: 200px;
+    background-color: cyan;
+}
+
+.hijo3 {
+    width: 50px;
+    height: 50px;
+    background-color: springgreen;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
