@@ -1,0 +1,33 @@
+/* overflow, z-index, visibility, opacity */
+.padre {
+    width: 300px;
+    height: 400px;
+    background-color: sienna;
+    margin: 20px;
+    overflow: hidden; /* todo lo que sobresale del padre se oculta */
+}
+
+.hijo2 {
+    width: 150px;
+    height: 150px;
+    background-color: silver;
+    position: absolute;
+}
+
+.hijo1 {
+    width: 80px;
+    height: 80px;
+    background-color: orange;
+    display: inline-block;
+    z-index: 99; /* visibilizar a traves del eje z */
+    position: relative;
+    top: -20px;
+}
+
+.oculto {
+    visibility: hidden; /* se oculta sin modificar el posicionamiento de los demás */
+}
+
+.transparente {
+    opacity: .5; /* transparencia */
+}
